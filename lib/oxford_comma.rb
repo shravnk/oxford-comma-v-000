@@ -7,6 +7,8 @@ def oxford_comma(array)
     elsif index == array.size - 2 && array.size == 2
       oxford.concat(item)
       oxford.concat(" ")
+    elsif index = array.size - 1 && array.size == 1
+      oxford.concat(item)
     else
       oxford.concat(item)
       oxford.concat(", ")
