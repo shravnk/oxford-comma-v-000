@@ -9,4 +9,5 @@ def oxford_comma(array)
       oxford.concat(", ")
     end
   end
+  oxford
 end
